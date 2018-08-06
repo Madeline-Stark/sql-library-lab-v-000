@@ -5,7 +5,7 @@ author_id INTEGER,
 subgenre_id INTEGER
 );
 
-CREATE TABLE Subgenre (
+CREATE TABLE Subgenres (
 id INTEGER PRIMARY KEY,
 name TEXT
 );
