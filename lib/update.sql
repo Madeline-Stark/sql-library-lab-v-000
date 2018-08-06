@@ -1,3 +1,3 @@
 "UPDATE Characters
 SET species = 'Martian'
-WHERE ID = 8";
+WHERE id = 8";
