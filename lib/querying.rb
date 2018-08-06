@@ -7,13 +7,6 @@ def select_books_titles_and_years_in_first_series_order_by_year
   GROUP BY books.year
   ORDER BY books.year
   ";
-  "SELECT projects.title,
-SUM(pledges.amount)
-FROM projects
-INNER JOIN pledges
-ON projects.id = pledges.project_id
-GROUP BY projects.title
-ORDER BY projects.title";
 end
 
 def select_name_and_motto_of_char_with_longest_motto
