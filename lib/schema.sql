@@ -14,3 +14,10 @@ CREATE TABLE Author (
 id INTEGER PRIMARY KEY,
 name TEXT
 );
+
+CREATE TABLE Books (
+id INTEGER PRIMARY KEY,
+title TEXT,
+year INTEGER,
+series INTEGER
+);
