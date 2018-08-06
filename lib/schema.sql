@@ -21,3 +21,12 @@ title TEXT,
 year INTEGER,
 series INTEGER
 );
+
+CREATE TABLE Characters (
+id INTEGER PRIMARY KEY,
+name TEXT,
+motto TEXT,
+species TEXT,
+author INTEGER,
+series INTEGER
+);
