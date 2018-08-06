@@ -10,7 +10,7 @@ id INTEGER PRIMARY KEY,
 name TEXT
 );
 
-CREATE TABLE Author (
+CREATE TABLE Authors (
 id INTEGER PRIMARY KEY,
 name TEXT
 );
