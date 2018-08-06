@@ -4,3 +4,8 @@ title TEXT,
 author INTEGER,
 sub-genre INTEGER
 );
+
+CREATE TABLE Sub-Genre (
+id INTEGER PRIMARY KEY,
+name TEXT
+);
